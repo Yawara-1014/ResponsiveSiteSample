@@ -258,6 +258,28 @@ aside ul {
   text-align: left;
 }
 
+/* 「サイトについて」ページ */
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  border: solid 1px #cccccc;
+  padding: 20px;
+}
+
+th {
+  width: 4em;
+  text-align: left;
+  background-color: #555d6b;
+  color: #ffffff;
+}
+
+td {
+  background-color: #e8eef9;
+}
+
+
 /* ===== PC版の設定===== */
 @media (min-width: 768px) {
 

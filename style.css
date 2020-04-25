@@ -279,6 +279,26 @@ td {
   background-color: #e8eef9;
 }
 
+/* 「お問い合わせ」ページ */
+form p {
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+textarea {
+  height: 120px;
+}
+
+input[type="submit"] {
+  background-color: #ffaa00;
+  border: none;
+  -webkit-appearance: none;
+}
 
 /* ===== PC版の設定===== */
 @media (min-width: 768px) {
@@ -367,6 +387,10 @@ td {
     margin-top: -20px;
   }
 
+    /* PC版:「お問い合わせ」ページ */
+  input[type="submit"] {
+    width: 250px;
+  }
 }
 
 /* ===== PC版の設定ここまで===== */
